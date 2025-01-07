@@ -1,0 +1,254 @@
+/* Media queries for Tablet  version */
+@media screen and (max-width: 991px) {
+  .nav-toggle {
+    display: block;
+    margin-right: 20px;
+    color: #000;
+  }
+  .nav-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .nav-links {
+    display: none;
+    /* margin-left: 120%; */
+  }
+  .open {
+    display: flex;
+    opacity: 1;
+    position: absolute;
+    background-color: #fff;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+    z-index: 2;
+    top: 100px;
+    right: 0px;
+    padding: 10px;
+  }
+  a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img {
+    width: 105px;
+    height: 90px;
+  }
+  .left-container {
+    width: 100%;
+  }
+  .right-container {
+    display: none;
+  }
+  .booksClubCard {
+    width: 95%;
+    margin: 1%;
+    border-radius: 4px;
+    border: 1.5px solid #ffac33;
+    background: #fffef9;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 2px;
+  }
+
+  .pyramid {
+    display: block;
+  }
+  .pyramid-desc {
+    width: 97%;
+    padding: 1%;
+    font-size: medium;
+    color: #999;
+    margin: 1%;
+  }
+  .pyramid-experiment {
+    width: 100%;
+    display: flex;
+  }
+  .pyramid-exp-card {
+    width: 97%;
+    margin: 1%;
+    height: 350px;
+    border-radius: 5px;
+    border: 1.5px solid #ffac33;
+    background: #fff;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .event-card {
+    width: 47%;
+    margin: 10px;
+    height: 360px;
+    border-radius: 5px;
+    border: 1.5px solid #ffac33;
+    background: #fff;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .give-msg {
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1rem;
+  }
+  .donation-type {
+    margin-top: 4%;
+    margin-left: 3%;
+    font-size: 0.9rem;
+    font-weight: initial;
+  }
+  .quote {
+    display: none;
+  }
+  .contact-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards in a row */
+  }
+}
+
+/* Media query for mobile version */
+@media screen and (max-width: 479px) {
+  .programcard {
+    width: 98%;
+    border-radius: 5px;
+    border: 1.5px solid #ffac33;
+    background: #fff;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+  }
+  .event-card {
+    width: 95%;
+    margin: 2%;
+    height: 400px;
+    border-radius: 5px;
+    border: 1.5px solid #ffac33;
+    background: #fff;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .donation-box {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 98%;
+    height: fit-content;
+    background-color: #056eae;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .vl-donation {
+    display: none;
+  }
+  .give-msg {
+    font-size: 1rem;
+  }
+  .donation-type {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 1rem;
+  }
+  .btn-donate {
+    width: 150px;
+    height: 60px;
+    background-color: #f4900c;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: 12%;
+  }
+
+  .vol {
+    display: block;
+  }
+  .vol-text {
+    margin-left: 1%;
+    font-size: 0.9rem;
+    padding-left: 5px;
+    justify-content: space-evenly;
+  }
+  .btn-vol {
+    display: none;
+    width: 150px;
+    height: 60px;
+    background-color: #0091e9;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 5% 30%;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+
+  .pyramid {
+    display: block;
+  }
+  .pyramid-desc {
+    width: 100%;
+    padding: 1%;
+    font-size: medium;
+    color: #999;
+    margin: 1%;
+  }
+  .pyramid-experiment {
+    display: block;
+    width: 100%;
+  }
+
+  .pyramid-exp-card {
+    width: 97%;
+    margin: 1%;
+    height: 350px;
+    border-radius: 5px;
+    border: 1.5px solid #ffac33;
+    background: #fff;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .quote {
+    display: none;
+  }
+  .mobile-version {
+    display: block;
+  }
+  .dev-by-bar {
+    display: none;
+  }
+  .dev-by {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .Container-title {
+    margin: 1%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .read-more {
+    display: inline;
+  }
+
+  .long-text {
+    height: 0;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .expanded {
+    height: auto;
+  }
+  .flyer {
+    width: 92%;
+    height: auto;
+  }
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
