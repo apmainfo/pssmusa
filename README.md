@@ -1,6 +1,6 @@
 # PSSM-USA
 
-Pyramid Spiritual Societies Moment, USA
+## Pyramid Spiritual Societies Moment, USA
 
 Start Instructions
 
