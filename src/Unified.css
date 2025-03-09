@@ -1,0 +1,111 @@
+.unified-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6a0dad;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.event-details {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 10px;
+}
+
+.event-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.session,
+.guide,
+.date,
+.time-label,
+.time {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.zoom-section,
+.youtube-section {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.zoom-button,
+.youtube-button {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.zoom-button {
+  background-color: #2563eb;
+}
+
+.zoom-button:hover {
+  background-color: #1e40af;
+}
+
+.youtube-button {
+  background-color: #dc2626;
+}
+
+.youtube-button:hover {
+  background-color: #b91c1c;
+}
+
+.meeting-info {
+  font-size: 14px;
+  color: #444;
+}
+
+.flier-section {
+  margin-top: 15px;
+}
+
+.flier {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note {
+  font-style: italic;
+  color: #666;
+  margin-top: 10px;
+}
+
+.closing,
+.team {
+  font-weight: bold;
+  color: #6a0dad;
+  margin-top: 10px;
+}
