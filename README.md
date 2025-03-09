@@ -2,7 +2,7 @@
 
 ## Pyramid Spiritual Societies Moment, USA
 
-Start Instructions
+### Start Instructions
 
 npm install
 
@@ -13,7 +13,7 @@ npm start
 
 it will open on localhost:3000
 
-To Update pages in the front page:
+## To Update pages in the front page:
 
 1. Update the image in the src/images directory:
 2. Go to src/ProgramDetails.js and add the following details in the list.
