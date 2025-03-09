@@ -36,6 +36,7 @@ function Navbar() {
           </div>
           <div className={`nav-links ${isOpen ? "open" : ""}`}>
             <a href="/home">HOME</a>
+            <a href="/unified">UNIFIED</a>
             {/* <a href="/experiance">EXPEREINCES</a> */}
             <a href="/events">IN PERSON EVENTS</a>
             <a href="/programs">ONLINE PROGRAMS</a>

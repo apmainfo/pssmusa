@@ -7,7 +7,6 @@ import Donation from "../components/Donation";
 import Volunteer from "../components/Volunteer";
 import Footer from "../components/Footer";
 
-import "../styles.css";
 import AboutPatriji from "../components/AboutPatriji";
 import Meditation from "../components/Meditation";
 import Spiritual from "../components/spiritual";
@@ -17,6 +16,8 @@ import WhyMeditation from "../components/WhyMeditation";
 import WhyPyramids from "../components/WhyPyramids";
 import HowToMeditate from "../components/HowToMeditate";
 import Demo from "../pages/Demo";
+
+import "../styles.css";
 
 function Home() {
   return (
