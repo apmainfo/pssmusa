@@ -49,7 +49,7 @@ function Home() {
       <Donation />
       <Volunteer />
       <Footer />
-      <Demo />
+
       {/* <DonationComponent /> */}
     </div>
   );
