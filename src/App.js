@@ -14,6 +14,7 @@ import OnlineProgramPage from "./pages/OnlineProgramPage.jsx";
 import MasterCard from "./components/MasterCard.jsx";
 import Contact from "./pages/Contact.jsx";
 import Unified from "./pages/Unified.jsx";
+import IowaEvent from "./pages/Iowa.jsx";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/books" element={<StayTune />} />
           <Route path="/local-masters" element={<Contact />} />
           <Route path="/unified" element={<Unified />} />
+          <Route path="/iowa" element={<IowaEvent />} />
           {/* <Route path="/newjersey" element={<NewJersey />} /> */}
           {/* <Route path="/test" element={<Test />} /> */}
         </Routes>
