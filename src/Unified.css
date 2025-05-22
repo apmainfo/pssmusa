@@ -31,6 +31,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
   margin-top: 10px;
+  font-size: 1rem;
 }
 
 .event-title {
@@ -38,7 +39,9 @@
   font-weight: bold;
   color: #1e3a8a;
 }
-
+.event-description {
+  font-size: 1rem;
+}
 .session,
 .guide,
 .date,
@@ -105,7 +108,27 @@
 
 .closing,
 .team {
+  font-size: 1.2rem;
   font-weight: bold;
   color: #6a0dad;
   margin-top: 10px;
+}
+.register-button {
+  display: inline-block;
+  background-color: #ffa500; /* Golden Orange */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #e69500;
+}
+
+.button-wrapper {
+  margin-top: 20px;
 }
